@@ -26,6 +26,25 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    // Spring 라이브러리
+    implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.3.19'
+    implementation group: 'org.springframework', name: 'spring-tx', version: '5.3.19'
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.19'
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.19'
+    implementation group: 'org.springframework', name: 'spring-test', version: '5.3.19'
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.19'
+
+    // mybatis - 라이브 러리
+    implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.9'
+    implementation group: 'org.mybatis', name: 'mybatis-spring', version: '2.0.7'
+
+    // Lombok 라이브러리
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    // JSTL
+    implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
 }
 
 test {
