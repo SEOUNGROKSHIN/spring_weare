@@ -13,7 +13,7 @@
         <logger name="com.greedy" level="INFO" additivity="false">
             <appender-ref ref="console" />
         </logger>
-      <!--  <logger name="org.zerock" level="INFO" additivity="false">
+     <!--   <logger name=".zerock" level="INFO" additivity="false">
             <appender-ref ref="console" />
         </logger>-->
 
@@ -21,4 +21,5 @@
             <AppenderRef ref="console"/>
         </root>
     </loggers>
+
     </configuration>
