@@ -28,6 +28,10 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 
+    //DB 설정
+    implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '3.0.4'
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+
     // Spring 라이브러리
     implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.3.19'
     implementation group: 'org.springframework', name: 'spring-tx', version: '5.3.19'
