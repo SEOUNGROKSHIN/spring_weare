@@ -25,7 +25,10 @@
         <constructor-arg ref="hikariConfig" />
     </bean>
 
-    <bean class="com.greedy.spring_weare.sample.SampleDAO"></bean>
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations" value="classpath:/mappers/**/*.xml"></property>
+    </bean>
 
-    <bean class="com.greedy.spring_weare.sample.SampleService"></bean>
+    <mybatis:scan base-package="com.greedy.spring_weare.mapper"></mybatis:scan>
 </beans>
