@@ -7,4 +7,12 @@
     <select id="getTime" resultType="string">
         SELECT NOW()
     </select>
+
+    <insert id="insert">
+        insert into tbl_ask (title , content , name, email , date ) values (#{title} ,
+                                                                      #{name} ,
+                                                                      #{content} ,
+                                                                      #{email} ,
+                                                                      #{date})
+    </insert>
 </mapper>

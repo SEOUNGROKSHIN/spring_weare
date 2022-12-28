@@ -36,6 +36,7 @@
 							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
 							<ul class="feature-icons">
 								<li class="icon solid fa-laptop">Consequat tempus</li>
+								<li class="icon solid fa-user">Customer</li>
 								<li class="icon solid fa-bolt">Etiam adipiscing</li>
 								<li class="icon solid fa-signal">Libero nullam</li>
 								<li class="icon solid fa-cog">Blandit condimentum</li>
@@ -76,7 +77,7 @@
 					<section>
 						<div class="content">
 							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
+								<li><a href="#" class="button primary large">Inquiry</a></li>
 								<li><a href="#" class="button large">Learn More</a></li>
 							</ul>
 						</div>
@@ -87,25 +88,28 @@
 						<header>
 							<h2>Get in touch</h2>
 						</header>
-						<div class="content">
+						<%--<div class="content">
 							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form>
+							<form action="/" method="post">
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" placeholder="이름" />
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
+										<input type="email" name="email" id="email" placeholder="이메일" />
 									</div>
 									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+										<textarea name="title" id="title" placeholder="제목" rows="1"></textarea>
+									</div>
+									<div class="field">
+										<textarea name="content" id="content" placeholder="내용" rows="5"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
+									<li><input type="submit" value="전송" class="button primary" /></li>
 								</ul>
 							</form>
-						</div>
+						</div>--%>
 						<footer>
 							<ul class="items">
 								<li>

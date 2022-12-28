@@ -1,5 +1,6 @@
-package com.greedy.spring_weare.ask.mapper;
+package com.greedy.spring_weare.mapper;
 
+import com.greedy.spring_weare.dto.AskDTO;
 import com.greedy.spring_weare.mapper.AskMapper;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
@@ -7,6 +8,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+import java.time.LocalDate;
 
 @Log4j2
 @ExtendWith(SpringExtension.class)
@@ -22,6 +25,16 @@ class AskMapperTest {
     }
 
     @Test
-    void insert() {
+    void testInsert() {
+       AskDTO askDTO = AskDTO.builder()
+               .title("제목테스트")
+               .content("내용테스트")
+               .name("신승록")
+               .date(LocalDate.now())
+               .email("test@naver.com")
+               .build();
+
+       askMapper.insert(askDTO);
+
     }
 }
