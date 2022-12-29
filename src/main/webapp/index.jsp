@@ -1,11 +1,10 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 	<head>
 		<title>Weare</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -88,7 +87,7 @@
 						<header>
 							<h2>Get in touch</h2>
 						</header>
-						<%--<div class="content">
+						<div class="content">
 							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
 							<form action="/" method="post">
 								<div class="fields">
@@ -109,7 +108,7 @@
 									<li><input type="submit" value="전송" class="button primary" /></li>
 								</ul>
 							</form>
-						</div>--%>
+						</div>
 						<footer>
 							<ul class="items">
 								<li>
