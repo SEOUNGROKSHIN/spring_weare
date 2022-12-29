@@ -35,7 +35,7 @@
 							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
 							<ul class="feature-icons">
 								<li class="icon solid fa-laptop">Consequat tempus</li>
-								<li class="icon solid fa-user">Customer</li>
+								<button type="button" onclick="location.href='/ask/regist'"  class="icon solid fa-user">Customer</button>
 								<li class="icon solid fa-bolt">Etiam adipiscing</li>
 								<li class="icon solid fa-signal">Libero nullam</li>
 								<li class="icon solid fa-cog">Blandit condimentum</li>
@@ -89,7 +89,7 @@
 						</header>
 						<div class="content">
 							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form action="/" method="post">
+							<form action="/ask/regist" method="post">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" placeholder="이름" />

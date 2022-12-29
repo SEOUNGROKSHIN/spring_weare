@@ -16,6 +16,9 @@
      <!--   <logger name=".zerock" level="INFO" additivity="false">
             <appender-ref ref="console" />
         </logger>-->
+        <logger name="com.greedy.spring_weare.mapper" level="trace" additivity="false">
+            <appender-ref ref="console" />
+        </logger>
 
         <root level="INFO" additivity="false">
             <AppenderRef ref="console"/>

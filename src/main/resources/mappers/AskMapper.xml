@@ -9,10 +9,9 @@
     </select>
 
     <insert id="insert">
-        insert into tbl_ask (title , content , name, email , date ) values (#{title} ,
+        insert into tbl_ask (title , content , name, email) values (#{title} ,
                                                                       #{name} ,
                                                                       #{content} ,
-                                                                      #{email} ,
-                                                                      #{date})
+                                                                      #{email})
     </insert>
 </mapper>
