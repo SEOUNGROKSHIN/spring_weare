@@ -47,6 +47,7 @@ dependencies {
     // Lombok 라이브러리
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
     // Lombok test
     testCompileOnly 'org.projectlombok:lombok:1.18.24'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
@@ -62,6 +63,9 @@ dependencies {
     // Log
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    // ModelMapper
+    implementation group: 'org.modelmapper' , name: 'modelmapper' , version: '3.0.0'
+
 }
 
 test {
