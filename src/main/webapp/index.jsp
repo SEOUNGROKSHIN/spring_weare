@@ -35,7 +35,7 @@
 							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
 							<ul class="feature-icons">
 								<li class="icon solid fa-laptop">Consequat tempus</li>
-								<button type="button" onclick="location.href='/ask/regist'"  class="icon solid fa-user">Customer</button>
+								<button type="button" onclick="location.href='/ask/list'" class="icon solid fa-user">ASK</button>
 								<li class="icon solid fa-bolt">Etiam adipiscing</li>
 								<li class="icon solid fa-signal">Libero nullam</li>
 								<li class="icon solid fa-cog">Blandit condimentum</li>
@@ -88,7 +88,7 @@
 							<h2>Get in touch</h2>
 						</header>
 						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
+							<p><strong>WEARE에게 문의하기</strong> 도움이 더 필요 하신가요?</p>
 							<form action="/ask/regist" method="post">
 								<div class="fields">
 									<div class="field half">

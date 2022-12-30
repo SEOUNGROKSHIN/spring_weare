@@ -10,8 +10,12 @@
 
     <insert id="insert">
         insert into tbl_ask (title , content , name, email) values (#{title} ,
-                                                                      #{name} ,
                                                                       #{content} ,
+                                                                      #{name} ,
                                                                       #{email})
     </insert>
+
+    <select id="selectAll" resultType="com.greedy.spring_weare.domain.AskVO">
+        SELECT * FROM TBL_ASK ORDER BY TNO DESC
+    </select>
 </mapper>
