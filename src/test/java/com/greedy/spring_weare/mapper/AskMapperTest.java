@@ -46,4 +46,13 @@ class AskMapperTest {
 
         voList.forEach(askVO -> log.info(askVO));
     }
+
+
+    @Test
+    void selectOne() {
+
+        AskVO vo = askMapper.selectOne(1L);
+
+        log.info(vo);
+    }
 }

@@ -18,4 +18,8 @@
     <select id="selectAll" resultType="com.greedy.spring_weare.domain.AskVO">
         SELECT * FROM TBL_ASK ORDER BY TNO DESC
     </select>
+
+    <select id="selectOne" resultType="com.greedy.spring_weare.domain.AskVO">
+        SELECT * FROM TBL_ASK WHERE tno = #{tno}
+    </select>
 </mapper>

@@ -1,5 +1,6 @@
 package com.greedy.spring_weare.service;
 
+import com.greedy.spring_weare.domain.AskVO;
 import com.greedy.spring_weare.dto.AskDTO;
 import com.greedy.spring_weare.mapper.AskMapper;
 import lombok.RequiredArgsConstructor;
@@ -36,5 +37,15 @@ public class AskServiceImpl implements AskService{
                 .collect(Collectors.toList());
 
         return dtoList;
+    }
+
+    @Override
+    public AskDTO selectOne(Long tno) {
+
+        AskVO askVO = askMapper.selectOne(tno);
+
+        AskDTO askDTO = modelMapper.map(askVO ,AskDTO.class);
+
+        return askDTO;
     }
 }

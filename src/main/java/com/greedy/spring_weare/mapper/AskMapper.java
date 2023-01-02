@@ -9,6 +9,7 @@ public interface AskMapper {
 
     String getTime();
     void insert(AskDTO askDTO);
-
     List<AskVO> selectAll();
+
+    AskVO selectOne(Long tno);
 }
