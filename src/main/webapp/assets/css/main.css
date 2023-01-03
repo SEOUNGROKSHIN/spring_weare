@@ -3880,3 +3880,10 @@ input, select, textarea {
 		}
 
 	}
+	/*Google Font*/
+
+	@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+	* {
+	font-family: 'Gowun Batang', serif;
+	 }

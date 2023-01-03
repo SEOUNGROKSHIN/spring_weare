@@ -16,6 +16,6 @@ public class AskVO {
     private String title;
     private String content;
     private String email;
-    private boolean state;
+    private boolean status;
     private LocalDate date;
 }

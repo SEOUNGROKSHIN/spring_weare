@@ -22,11 +22,10 @@ public class AskController {
 
 
     @GetMapping("/list")
-    public void selectAll(Model model) {
+    public void selectAll(Model model , AskDTO askDTO) {
         log.info("ask List ....");
 
         model.addAttribute("dtoList" , askService.selectAll());
-
     }
     @PostMapping("/regist")
     public String registerPost(AskDTO askDTO) {
@@ -36,6 +35,14 @@ public class AskController {
         askService.insert(askDTO);
 
         return "redirect:/";
+    }
+
+    @GetMapping("/read")
+    public void read(Long tno , Model model) {
+
+        AskDTO askDTO = askService.selectOne(tno);
+
+        model.addAttribute("dto" , askDTO);
     }
 
 }
