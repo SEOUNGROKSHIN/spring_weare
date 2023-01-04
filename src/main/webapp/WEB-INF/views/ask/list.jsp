@@ -45,8 +45,7 @@
   <div class="row content">
     <div class="col">
       <div class="card">
-        <c:forEach items="${dtoList}" var="dto">
-      <h6 class="wn">${dto.name}님 환영합니다!</h6>
+      <h6 class="wn">님 환영합니다!</h6>
         <div class="card-header">
 
         </div>
@@ -54,7 +53,7 @@
           <table class="table">
             <thead>
             <tr>
-              <th scope="col">글번호</th>
+              <th scope="col">글 번호</th>
               <th scope="col">제목</th>
               <th scope="col">이름</th>
               <th scope="col">문의날짜</th>
@@ -63,6 +62,7 @@
             </thead>
             <tbody>
               <tr>
+            <c:forEach items="${dtoList}" var="dto">
                 <th scope="row" c:out value="${dto.tno}">${dto.tno}</th>
                 <td><a href="/ask/read?tno=${dto.tno}" class="text-decoration-none"><c:out value="${dto.title}"/></a></td>
                 <td><c:out value="${dto.name}"/></td>

@@ -12,4 +12,5 @@ public interface AskService {
     List<AskDTO> selectAll();
 
     AskDTO selectOne(Long tno);
+
 }

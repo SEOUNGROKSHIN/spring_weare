@@ -49,26 +49,32 @@
         </div>
         <div class="card-body">
           <div class="input-group mb-3">
-            <span class="input-group-text">TNO</span>
+            <span class="input-group-text">글 번호</span>
             <input type="text" name="tno" class="form-control"
                    value=<c:out value="${dto.tno}"></c:out> readonly>
           </div>
 
           <div class="input-group mb-3">
-            <span class="input-group-text">Title</span>
+            <span class="input-group-text">제목</span>
             <input type="text" name="title" class="form-control"
                    value=<c:out value="${dto.title}"></c:out> readonly>
           </div>
 
+          <div class="input-group mb-3">
+            <span class="input-group-text">내용</span>
+            <input type="text" name="title" class="form-control"
+                   value=<c:out value="${dto.content}"></c:out> readonly>
+          </div>
+
 
           <div class="input-group mb-3">
-            <span class="input-group-text">DueDate</span>
+            <span class="input-group-text">날짜</span>
             <input type="text" name="dueDate" class="form-control"
                    value=<c:out value="${dto.date}"></c:out> readonly>
           </div>
 
           <div class="input-group mb-3">
-            <span class="input-group-text">Writer</span>
+            <span class="input-group-text">작성자</span>
             <input type="text" name="writer" class="form-control"
                    value=<c:out value="${dto.name}"></c:out> readonly>
           </div>

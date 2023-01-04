@@ -24,8 +24,12 @@ public class AskController {
     @GetMapping("/list")
     public void selectAll(Model model , AskDTO askDTO) {
         log.info("ask List ....");
-
+    if(askDTO != null) {
         model.addAttribute("dtoList" , askService.selectAll());
+    } else if(askDTO == null) {
+        log.info("askList : " + askDTO);
+        model.addAttribute("empty" , "게시글이 없습니다.");
+    }
     }
     @PostMapping("/regist")
     public String registerPost(AskDTO askDTO) {
@@ -40,8 +44,8 @@ public class AskController {
     @GetMapping("/read")
     public void read(Long tno , Model model) {
 
-        AskDTO askDTO = askService.selectOne(tno);
 
+        AskDTO askDTO = askService.selectOne(tno);
         model.addAttribute("dto" , askDTO);
     }
 
