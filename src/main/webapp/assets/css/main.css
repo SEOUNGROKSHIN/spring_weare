@@ -196,6 +196,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		color: darkgray;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3223,8 +3224,7 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			background-color: deepskyblue;
-			background-image: url("https://cdn.pixabay.com/photo/2019/06/27/06/49/plane-4301615_960_720.png");
+			background-color: ghostwhite;
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
 			background-size: 75% auto;

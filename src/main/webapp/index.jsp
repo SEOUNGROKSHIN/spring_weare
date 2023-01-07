@@ -13,7 +13,6 @@
 <div id="wrapper">
 
 	<!-- Intro -->
-	<!-- Intro -->
 	<section class="intro">
 		<header>
 			<h1>Weare</h1>
@@ -24,9 +23,11 @@
 			</ul>
 		</header>
 
-		<div class="content">
+		<%--<div class="content">
 			<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
-		</div>
+		</div>--%>
+
+
 	</section>
 	<!-- Section -->
 	<section>
