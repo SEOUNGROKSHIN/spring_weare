@@ -13,53 +13,41 @@
 <div id="wrapper">
 
 	<!-- Intro -->
+	<!-- Intro -->
 	<section class="intro">
 		<header>
 			<h1>Weare</h1>
-		<div class="brands">
-			<strong><p>Introduce Guide<a href="https://github.com/SEOUNGROKSHIN/Spring_weare/">@CoShin</a><br>
-				<a href="https://github.com/SEOUNGROKSHIN/WEARE">From Team Project</a></p></strong>
+			<p>Introduce Guide<a href="https://github.com/SEOUNGROKSHIN/Spring_weare/">@CoShin</a>
+				<a href="https://github.com/SEOUNGROKSHIN/WEARE">From Team Project</a></p>
 			<ul class="actions">
 				<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 			</ul>
-		</div>
-			<div class="content">
-				<%--<h3 class="arrow">가이드 매칭 서비스 플랫폼</h3>--%>
-				<div class="content">
-					<ul class="feature-icons">
-						<li class="icon solid fa-laptop">Consequat tempus</li>
-						<li class="icon solid fa-user"><a href="http://localhost:8080/ask/list">문의내역</a>
-						<li class="icon solid fa-bolt">Etiam adipiscing</li>
-						<li class="icon solid fa-signal">Libero nullam</li>
-						<li class="icon solid fa-cog">Blandit condimentum</li>
-						<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-						<li class="icon solid fa-code">Nibh amet venenatis</li>
-					</ul>
-					<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-				</div>
-			</div>
 		</header>
-	</section>
 
-	<%--<section>
 		<div class="content">
-					&lt;%&ndash;<h3 class="arrow">가이드 매칭 서비스 플랫폼</h3>&ndash;%&gt;
-				<div class="content">
-					<ul class="feature-icons">
-						<li class="icon solid fa-laptop">Consequat tempus</li>
-						<button type="button" onclick="location.href='/ask/list'" class="icon solid fa-user">ASK</button>
-						<li class="icon solid fa-bolt">Etiam adipiscing</li>
-						<li class="icon solid fa-signal">Libero nullam</li>
-						<li class="icon solid fa-cog">Blandit condimentum</li>
-						<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-						<li class="icon solid fa-code">Nibh amet venenatis</li>
-					</ul>
-					<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-				</div>
+			<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
 		</div>
-	</section>--%>
-
+	</section>
 	<!-- Section -->
+	<section>
+		<header>
+			<h2>Feugiat consequat tempus ultrices</h2>
+		</header>
+		<div class="content">
+			<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
+			<ul class="feature-icons">
+				<li class="icon solid fa-laptop">Consequat tempus</li>
+				<li class="icon solid fa-user"><a href="http://localhost:8080/ask/list">문의내역</a>
+				<li class="icon solid fa-bolt">Etiam adipiscing</li>
+				<li class="icon solid fa-signal">Libero nullam</li>
+				<li class="icon solid fa-cog">Blandit condimentum</li>
+				<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
+				<li class="icon solid fa-code">Nibh amet venenatis</li>
+			</ul>
+			<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
+		</div>
+	</section>
+	<!-- Section End -->
 
 		<div class="content">
 			<section>
