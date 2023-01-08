@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 <body class="is-preload">
 
@@ -22,6 +23,39 @@
 				<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 			</ul>
 		</header>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<p>Card</p>
+					<div class="card">
+						<div class="card-header">
+							My Card
+						</div>
+						<img src="images/card-image.png" alt="" />
+						<div class="card-body">
+							<h5 class="card-title">Lorem</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed sem ut malesuada.</p>
+							<a href="#" class="btn btn-primary">More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-6">
+					<p>Card</p>
+					<div class="card">
+						<div class="card-header">
+							My Card
+						</div>
+						<img src="images/card-image.png" alt="" />
+						<div class="card-body">
+							<h5 class="card-title">Lorem</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed sem ut malesuada.</p>
+							<a href="#" class="btn btn-primary">More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<%--<div class="content">
 			<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
@@ -145,6 +179,9 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
 </html>
