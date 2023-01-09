@@ -27,29 +27,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-6">
-					<p>Card</p>
 					<div class="card">
 						<div class="card-header">
-							My Card
+							제주도
 						</div>
-						<img src="images/card-image.png" alt="" />
+						<img src="images/pic01.jpg" alt="" />
 						<div class="card-body">
-							<h5 class="card-title">Lorem</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed sem ut malesuada.</p>
+							<h5 class="card-title">About Jeju Island</h5>
+							<p class="card-text"></p>
 							<a href="#" class="btn btn-primary">More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-6">
-					<p>Card</p>
 					<div class="card">
 						<div class="card-header">
-							My Card
+							다낭
 						</div>
-						<img src="images/card-image.png" alt="" />
+						<img src="images/pic01.jpg" alt="" />
 						<div class="card-body">
-							<h5 class="card-title">Lorem</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed sem ut malesuada.</p>
+							<h5 class="card-title">About Danang</h5>
+							<p class="card-text"></p>
 							<a href="#" class="btn btn-primary">More</a>
 						</div>
 					</div>
