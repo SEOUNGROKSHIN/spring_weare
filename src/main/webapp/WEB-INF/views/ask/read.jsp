@@ -97,6 +97,11 @@
             document.querySelector(".btn-primary").addEventListener("click" , function(e) {
               self.location = "/ask/modify?tno="+${dto.tno}
             } , false)
+
+            document.querySelector(".btn-secondary").addEventListener("click" , function (e)
+            {
+              self.location = "/ask/list";
+            }, false)
           </script>
           </form>
 

@@ -4,12 +4,15 @@ import com.greedy.spring_weare.dto.AskDTO;
 import com.greedy.spring_weare.service.AskService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.validation.Valid;
 
 
 @Controller
@@ -32,13 +35,22 @@ public class AskController {
     }
     }
     @PostMapping("/regist")
-    public String registerPost(AskDTO askDTO) {
+    public String registerPost(@Valid  AskDTO askDTO,
+                               BindingResult bindingResult,
+                               RedirectAttributes redirectAttributes) {
 
-        ModelMapper modelMapper = new ModelMapper();
+        log.info("POST ASK register....");
+
+        if(bindingResult.hasErrors()) {
+            log.info("has Errors......");
+            return "redirect:/";
+        }
+
+        log.info(askDTO);
 
         askService.insert(askDTO);
 
-        return "redirect:/";
+        return "redirect:/ask/list";
     }
 
     @GetMapping("/read")

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
@@ -7,6 +8,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<script>
+
+		const serverValidResult = {}
+
+		<c:forEach items="${errors}" var="error">
+
+		serverValidResult['${error.getField()}'] = '${error.defaultMessage}'
+
+		</c:forEach>
+
+		console.log(serverValidResult)
+	</script>
 </head>
 <body class="is-preload">
 
@@ -33,7 +47,7 @@
 						</div>
 						<img src="images/pic01.jpg" alt="" />
 						<div class="card-body">
-							<h5 class="card-title">About Jeju Island</h5>
+							<h5 class="card-title">About Jeju</h5>
 							<p class="card-text"></p>
 							<a href="#" class="btn btn-primary">More</a>
 						</div>
